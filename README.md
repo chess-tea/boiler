@@ -12,3 +12,4 @@ Boiler plate for Revery libraries/projects.
 ### Notes:
 
 - `override.install` is necessary to make "test" recognized in: `esy '@test' x test`
+- `ocaml` is locked to `"<= 4.08.0"` in dev dependencies because that is the highest version supported by the VSCode extension I use

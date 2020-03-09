@@ -1,1 +1,1 @@
-print_endline(Boiler.x);
+Tests.TestFramework.cli();

@@ -1,13 +1,12 @@
 {
   "source": "./package.json",
   "override": {
-    "build": "dune build -p boiler,example",
-    "buildDev": "refmterr dune build -p boiler,example",
-    "dependencies": {
-      "@reason-native/rely": "^3.1.0"
-    },
+    "build": "refmterr dune build -p boiler,example",
     "install": [
       "esy-installer example.install"
-    ]
+    ],
+    "dependencies": {
+      "@reason-native/rely": "^3.1.0"
+    }
   }
 }

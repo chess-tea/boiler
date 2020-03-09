@@ -4,8 +4,7 @@
   "description": "Boiler plate for Revery libraries/projects",
   "license": "MIT",
   "esy": {
-    "build": "dune build -p boiler",
-    "buildDev": "refmterr dune build -p boiler"
+    "build": "refmterr dune build -p boiler"
   },
   "scripts": {
     "example": "esy '@example' x example",
@@ -15,11 +14,11 @@
   "dependencies": {
     "@esy-ocaml/reason": "^3.3.7",
     "@opam/dune": ">= 2.0.1",
-    "ocaml": ">= 4.4.0"
+    "ocaml": ">= 4.4.0",
+    "refmterr": "*"
   },
   "devDependencies": {
     "@opam/merlin": "*",
-    "ocaml": "<= 4.08.0",
-    "refmterr": "*"
+    "ocaml": "<= 4.08.0"
   }
 }
