@@ -1,0 +1,8 @@
+(library
+  (name Boiler)
+  (public_name boiler)
+  (ocamlc_flags -w -9-27)
+  (ocamlopt_flags -w -9-27)
+  (libraries)
+)
+(include_subdirs unqualified)

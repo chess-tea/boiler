@@ -1,0 +1,9 @@
+(executable
+  (name ExampleExe)
+  (public_name example)
+  (package example)
+  (ocamlc_flags -w -9-27)
+  (ocamlopt_flags -w -9-27)
+  (libraries boiler)
+)
+(include_subdirs unqualified)
